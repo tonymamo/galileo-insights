@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
+import { Button } from 'antd'
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
@@ -16,6 +17,7 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <div>
+    <Button>hello world</Button>
     <div
       className="full-width-image margin-top-0"
       style={{
